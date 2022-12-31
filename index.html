@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="fa-IR" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>فروشگاه لباس</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- header -->
+    <section id="hero" class="relative">
+      <!-- header container -->
+      <div class="section-container mb-40 pt-8 min-h-screen">
+        <!-- logo/nav/shopping card -->
+        <div class="flex justify-between">
+          <!-- logo and menu -->
+          <div class="flex items-center gap-6">
+            <img src="./images/logo.png" class="w-[32px]" alt="" />
+            <ul class="flex gap-6 font-semibold">
+              <li><a href="#">خانه</a></li>
+              <li><a href="#">فروشگاه</a></li>
+              <li><a href="#">وبلاگ</a></li>
+              <li><a href="#">تخفیف ویژه</a></li>
+              <li><a href="#">ارتباط با ما</a></li>
+            </ul>
+          </div>
+          <!-- basket and profile icon -->
+          <div class="flex items-center gap-4">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="w-6 h-6"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z"
+              />
+            </svg>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="w-6 h-6"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z"
+              />
+            </svg>
+          </div>
+        </div>
+        <!-- text box -->
+        <div class="absolute top-[50%] -translate-y-1/2">
+          <p class="text-xl mb-2">فروشگاه تخخصی پوشاک</p>
+          <h1 class="text-3xl font-bold mb-2">فروشگاه بینام خانه مد ایران</h1>
+          <p class="text-xl font-semibold mb-12">
+            مرکز تخصصی پوشاک نوین خاورمیانه
+          </p>
+          <a
+            href="#"
+            class="text-center bg-gray-800 text-white p-3 px-8 duration-200 hover:bg-white hover:text-gray-800"
+            >مشاهده محصولات</a
+          >
+        </div>
+
+        <!-- slider text -->
+        <div class="absolute flex gap-4 bottom-8 text-sm">
+          <span class="p-1">مردانه</span>
+          <span class="p-1 px-3 border-x-2 border-gray-400">زنانه</span>
+          <span class="p-1">کودکان</span>
+        </div>
+        <!-- arrow left -->
+        <div
+          class="absolute top-1/2 -translate-y-1/2 left-8 bg-white p-2 w-8 h-8 flex items-center justify-center font-bold rounded-full shadow-lg"
+        >
+          >
+        </div>
+        <!-- arrow right -->
+        <div
+          class="absolute top-1/2 -translate-y-1/2 right-8 bg-white p-2 w-8 h-8 flex items-center justify-center font-bold rounded-full shadow-lg"
+        >
+          <
+        </div>
+      </div>
+    </section>
+
+    <!-- products and categories -->
+    <section id="products1">
+      <div class="section-container my-20">
+        <!-- flex container -->
+        <div class="flex gap-4 items-center justify-between">
+          <!-- products -->
+          <div>
+            <!-- category nav -->
+            <ul class="flex gap-6 mb-8">
+              <li class="font-bold">همه</li>
+              <li>پالتو</li>
+              <li>بارانی</li>
+              <li>پیراهن</li>
+              <li>هودی</li>
+              <li>مانتو</li>
+            </ul>
+            <!-- products -->
+            <div class="grid grid-cols-3 gap-4">
+              <!-- item 1 -->
+              <div class="flex flex-col gap-1 items-center justify-center">
+                <!-- <img src="" alt=""> -->
+                <div class="pb-[250px] w-[230px] bg-gray-200"></div>
+                <h5>هودی آبی</h5>
+                <p class="text-sm font-bold">250/000 تومان</p>
+              </div>
+              <!-- item 2 -->
+              <div class="flex flex-col gap-1 items-center justify-center">
+                <!-- <img src="" alt=""> -->
+                <div class="pb-[250px] w-[230px] bg-gray-200"></div>
+                <h5>هودی آبی</h5>
+                <p class="text-sm font-bold">250/000 تومان</p>
+              </div>
+              <!-- item 3 -->
+              <div class="flex flex-col gap-1 items-center justify-center">
+                <!-- <img src="" alt=""> -->
+                <div class="pb-[250px] w-[230px] bg-gray-200"></div>
+                <h5>هودی آبی</h5>
+                <p class="text-sm font-bold">250/000 تومان</p>
+              </div>
+              <!-- item 4 -->
+              <div class="flex flex-col gap-1 items-center justify-center">
+                <!-- <img src="" alt=""> -->
+                <div class="pb-[250px] w-[230px] bg-gray-200"></div>
+                <h5>هودی آبی</h5>
+                <p class="text-sm font-bold">250/000 تومان</p>
+              </div>
+              <!-- item 5  -->
+              <div class="flex flex-col gap-1 items-center justify-center">
+                <!-- <img src="" alt=""> -->
+                <div class="pb-[250px] w-[230px] bg-gray-200"></div>
+                <h5>هودی آبی</h5>
+                <p class="text-sm font-bold">250/000 تومان</p>
+              </div>
+              <!-- item 6 -->
+              <div class="flex flex-col gap-1 items-center justify-center">
+                <!-- <img src="" alt=""> -->
+                <div class="pb-[250px] w-[230px] bg-gray-200"></div>
+                <h5>هودی آبی</h5>
+                <p class="text-sm font-bold">250/000 تومان</p>
+              </div>
+            </div>
+          </div>
+          <!-- categories -->
+          <div class="relative pb-[450px] w-[330px] bg-gray-200">
+            <a
+              href="#"
+              class="absolute left-1/2 -translate-x-1/2 text-sm bottom-8 hover:bg-gray-800 duration-200 hover:text-white bg-white p-3 px-6"
+              >مشاهده دسته بندی</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- features section -->
+    <section id="features">
+      <div class="section-container my-20">
+        <div class="bg-gray-200 h-52"></div>
+      </div>
+    </section>
+
+    <!-- products and categories -->
+    <section id="products2">
+      <div class="section-container my-20">
+        <!-- flex container -->
+        <div class="flex gap-4 items-center justify-between">
+          <!-- categories -->
+          <div class="relative pb-[450px] w-[330px] bg-gray-200">
+            <a
+              href="#"
+              class="absolute left-1/2 -translate-x-1/2 text-sm bottom-8 hover:bg-gray-800 duration-200 hover:text-white bg-white p-3 px-6"
+              >مشاهده دسته بندی</a
+            >
+          </div>
+
+          <!-- products -->
+          <div>
+            <!-- category nav -->
+            <ul class="flex gap-6 mb-8">
+              <li class="font-bold">همه</li>
+              <li>پالتو</li>
+              <li>بارانی</li>
+              <li>پیراهن</li>
+              <li>هودی</li>
+              <li>مانتو</li>
+            </ul>
+            <!-- products -->
+            <div class="grid grid-cols-3 gap-4">
+              <!-- item 1 -->
+              <div class="flex flex-col gap-1 items-center justify-center">
+                <!-- <img src="" alt=""> -->
+                <div class="pb-[250px] w-[230px] bg-gray-200"></div>
+                <h5>هودی آبی</h5>
+                <p class="text-sm font-bold">250/000 تومان</p>
+              </div>
+              <!-- item 2 -->
+              <div class="flex flex-col gap-1 items-center justify-center">
+                <!-- <img src="" alt=""> -->
+                <div class="pb-[250px] w-[230px] bg-gray-200"></div>
+                <h5>هودی آبی</h5>
+                <p class="text-sm font-bold">250/000 تومان</p>
+              </div>
+              <!-- item 3 -->
+              <div class="flex flex-col gap-1 items-center justify-center">
+                <!-- <img src="" alt=""> -->
+                <div class="pb-[250px] w-[230px] bg-gray-200"></div>
+                <h5>هودی آبی</h5>
+                <p class="text-sm font-bold">250/000 تومان</p>
+              </div>
+              <!-- item 4 -->
+              <div class="flex flex-col gap-1 items-center justify-center">
+                <!-- <img src="" alt=""> -->
+                <div class="pb-[250px] w-[230px] bg-gray-200"></div>
+                <h5>هودی آبی</h5>
+                <p class="text-sm font-bold">250/000 تومان</p>
+              </div>
+              <!-- item 5  -->
+              <div class="flex flex-col gap-1 items-center justify-center">
+                <!-- <img src="" alt=""> -->
+                <div class="pb-[250px] w-[230px] bg-gray-200"></div>
+                <h5>هودی آبی</h5>
+                <p class="text-sm font-bold">250/000 تومان</p>
+              </div>
+              <!-- item 6 -->
+              <div class="flex flex-col gap-1 items-center justify-center">
+                <!-- <img src="" alt=""> -->
+                <div class="pb-[250px] w-[230px] bg-gray-200"></div>
+                <h5>هودی آبی</h5>
+                <p class="text-sm font-bold">250/000 تومان</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- landings -->
+    <section id="landings">
+      <div class="section-container my-20">
+        <div class="relative flex gap-2">
+          <!-- right-side -->
+          <div class="pb-52 w-full bg-gray-200"></div>
+          <!-- left side -->
+          <div class="pb-52 w-full bg-gray-200"></div>
+          <!-- button -->
+          <div
+            class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-white px-4 py-2 border border-gray-800 hover:bg-gray-800 hover:text-white duration-200"
+          >
+            <a href="#">
+              <h3 class="font-bold">فروش ویژه</h3>
+              <p class="text-sm">با تخفیف های هیجان انگیز</p>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="brands">
+      <div class="max-w-4xl mx-auto text-center px-10 my-20">
+        <div class="flex justify-around">
+          <!-- item 1 -->
+          <div
+            class="p-4 border border-gray-400 hover:border-gray-600 duration-200 rounded-xl text-gray-400 hover:text-gray-600"
+          >
+            برند
+          </div>
+          <!-- item 1 -->
+          <div
+            class="p-4 border border-gray-400 hover:border-gray-600 duration-200 rounded-xl text-gray-400 hover:text-gray-600"
+          >
+            برند
+          </div>
+          <!-- item 1 -->
+          <div
+            class="p-4 border border-gray-400 hover:border-gray-600 duration-200 rounded-xl text-gray-400 hover:text-gray-600"
+          >
+            برند
+          </div>
+          <!-- item 1 -->
+          <div
+            class="p-4 border border-gray-400 hover:border-gray-600 duration-200 rounded-xl text-gray-400 hover:text-gray-600"
+          >
+            برند
+          </div>
+          <!-- item 1 -->
+          <div
+            class="p-4 border border-gray-400 hover:border-gray-600 duration-200 rounded-xl"
+          >
+            برند
+          </div>
+          <!-- item 1 -->
+          <div
+            class="p-4 border border-gray-400 hover:border-gray-600 duration-200 rounded-xl"
+          >
+            برند
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="bg-[#e7e7e7]">
+      <div class="section-container p-16">
+        <!-- container -->
+        <div class="flex justify-between text-right">
+          <!-- description -->
+          <div>
+            <h3 class="font-bold mb-4">فروشگاه برند ما</h3>
+            <p class="text-sm w-2/3 mb-4">
+              فروشگاه برند یکی از بزرگترین تامین کنندگان پوشاک جوانان ایرانی.
+            </p>
+            <p class="text-sm mb-1">تماس : 88112232-021</p>
+            <p class="text-sm">تماس : 88114422-021</p>
+          </div>
+          <!-- menu 1 -->
+          <div>
+            <h3 class="font-bold mb-4">در مورد برند</h3>
+            <ul class="flex flex-col text-sm gap-2">
+              <li>فروشگاه</li>
+              <li>دسته بندی ها</li>
+              <li>وبلاگ</li>
+              <li>محصولات</li>
+            </ul>
+          </div>
+          <!-- menu 2 -->
+          <div>
+            <h3 class="font-bold mb-4">راهنمای خرید</h3>
+            <ul class="flex flex-col text-sm gap-2">
+              <li>قوانین و مقررات</li>
+              <li>شیوه ارسال محصولات</li>
+              <li>مرجوعی کالا</li>
+              <li>کلوب مشتریان</li>
+            </ul>
+          </div>
+          <!-- newsletter and socials -->
+          <div>
+            <!-- newsletter -->
+            <div class="mb-4">
+              <h3 class="font-bold mb-4">خبرنامه برند</h3>
+              <p class="text-sm mb-2">عضویت در خبرنامه فروشگاه پوشاک</p>
+              <input
+                type="text"
+                placeholder="email@gmail.com"
+                class="placeholder:text-xs"
+              />
+            </div>
+            <!-- socials -->
+            <div class="flex justify-between gap-2">
+              <!-- item 1 -->
+              <div class="w-8 pb-8 bg-gray-400 rounded-full"></div>
+              <!-- item 2 -->
+              <div class="w-8 pb-8 bg-gray-400 rounded-full"></div>
+              <!-- item 3 -->
+              <div class="w-8 pb-8 bg-gray-400 rounded-full"></div>
+              <!-- item 4 -->
+              <div class="w-8 pb-8 bg-gray-400 rounded-full"></div>
+            </div>
+          </div>
+        </div>
+        <!-- footer -->
+        <p class="text-right mt-6 text-xs">
+          تمامی حقوق برای شرکت
+          <span class="font-bold">توکان تجارت آرسس</span> محفوظ می باشد
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>

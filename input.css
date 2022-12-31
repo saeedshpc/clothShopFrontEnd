@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  color: #282828;
+}
+#hero {
+  background-color: #e7e7e7;
+}
+
+.section-container {
+  @apply max-w-6xl mx-auto text-center px-10;
+}
