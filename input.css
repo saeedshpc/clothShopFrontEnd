@@ -12,3 +12,31 @@ body {
 .section-container {
   @apply max-w-6xl mx-auto text-center px-10;
 }
+
+.hamburger {
+  cursor: pointer;
+  position: relative;
+  width: 24px;
+  height: 24px;
+  transition: 0.25s;
+  transform: rotate(0deg);
+}
+
+.hamburger-top,
+.hamburger-middle,
+.hamburger-bottom {
+  position: absolute;
+  width: 24px;
+  height: 2px;
+  background: #000;
+  top: 0;
+  left: 0;
+  transition: 0.5s;
+}
+
+.hamburger-middle {
+  transform: translateY(7px);
+}
+.hamburger-bottom {
+  transform: translateY(14px);
+}
