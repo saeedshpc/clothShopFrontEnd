@@ -12,6 +12,13 @@ body {
   background-position: right;
 }
 
+@media (max-width: 576px) {
+  #hero {
+    background-image: url("../images/hero-mobile.jpg");
+    background-position: center;
+  }
+}
+
 .section-container {
   @apply max-w-6xl mx-auto text-center px-10;
 }
