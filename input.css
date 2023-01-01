@@ -6,7 +6,10 @@ body {
   color: #282828;
 }
 #hero {
-  background-color: #e7e7e7;
+  background-image: url("../images/hero-desktop.jpg");
+  background-image: no-repeat;
+  background-size: cover;
+  background-position: right;
 }
 
 .section-container {
