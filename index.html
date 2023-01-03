@@ -12,6 +12,7 @@
       href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;600;700;800&display=swap"
       rel="stylesheet"
     />
+    <script src="./js/script.js" defer></script>
   </head>
   <body>
     <!-- header -->
@@ -22,7 +23,10 @@
         <div class="flex justify-between">
           <!-- menu btn -->
           <div class="md:hidden">
-            <button class="block z-10 hamburger focus:outline-none">
+            <button
+              id="menu-btn"
+              class="block z-20 hamburger focus:outline-none"
+            >
               <span class="hamburger-top"></span>
               <span class="hamburger-middle"></span>
               <span class="hamburger-bottom"></span>
@@ -158,6 +162,125 @@
               d="M8.25 4.5l7.5 7.5-7.5 7.5"
             />
           </svg>
+        </div>
+        <!-- mobile menu -->
+        <!-- <div
+          class="absolute top-0 z-10 right-0 w-full min-h-screen bg-black opacity-60"
+        ></div> -->
+        <div
+          id="mobile-menu"
+          class="hidden absolute top-0 z-10 right-0 w-full min-h-screen bg-white pb-28"
+        >
+          <div class="pt-12 px-4">
+            <div class="text-left">
+              <a href="#" class="px-6 py-1 border border-gray-700"
+                >ثبت نام / ورود
+              </a>
+            </div>
+            <div
+              class="mt-14 flex border justify-around border-gray-600 py-2 text-gray-600"
+            >
+              <input
+                type="text"
+                placeholder="جستجو در محصولات"
+                class="block w-[80%] px-2 focus:outline-none"
+              />
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-6 h-6"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z"
+                />
+              </svg>
+            </div>
+            <!-- main categories -->
+            <div class="flex flex-col gap-2 mt-8">
+              <!-- item1 -->
+              <div class="relative h-28 w-full">
+                <a href="#" class="mobileMenuLinks">
+                  <img src="./images/categories/mobile1.jpg" alt="" />
+                  <p
+                    class="absolute top-1/2 -translate-y-1/2 right-8 font-bold z-20"
+                  >
+                    مردانه
+                  </p>
+                </a>
+              </div>
+              <!-- item2 -->
+              <div class="relative h-28 w-full">
+                <a href="#" class="mobileMenuLinks">
+                  <img src="./images/categories/mobile2.jpg" alt="" />
+                  <p
+                    class="absolute top-1/2 -translate-y-1/2 right-8 font-bold z-20"
+                  >
+                    زنانه
+                  </p>
+                </a>
+              </div>
+              <!-- item3 -->
+              <div class="relative h-28 w-full">
+                <a href="#" class="mobileMenuLinks">
+                  <img src="./images/categories/mobile3.jpg" alt="" />
+                  <p
+                    class="absolute top-1/2 -translate-y-1/2 right-8 font-bold z-20"
+                  >
+                    بچگانه
+                  </p>
+                </a>
+              </div>
+              <!-- item4 -->
+              <div class="relative h-28 w-full">
+                <a href="#" class="mobileMenuLinks">
+                  <img src="./images/categories/mobile4.jpg" alt="" />
+                  <p
+                    class="absolute top-1/2 -translate-y-1/2 right-8 font-bold z-20"
+                  >
+                    زیبایی و سلامت
+                  </p>
+                </a>
+              </div>
+            </div>
+            <!-- categories and tags -->
+            <div class="mt-8 px-3">
+              <ul class="flex flex-col gap-8 pl-2">
+                <li class="w-full text-right mobileMenuLinks">
+                  <a
+                    href="#"
+                    class="border-b-2 pb-2 block w-full border-gray-200"
+                    >جشنواره زمستانی</a
+                  >
+                </li>
+                <li class="w-full text-right mobileMenuLinks">
+                  <a
+                    href="#"
+                    class="border-b-2 pb-2 block w-full border-gray-200"
+                    >تخفیفات شگفت انگیز</a
+                  >
+                </li>
+                <li class="w-full text-right mobileMenuLinks">
+                  <a
+                    href="#"
+                    class="border-b-2 pb-2 block w-full border-gray-200"
+                    >کلوپ مشتریان</a
+                  >
+                </li>
+                <li class="w-full text-right mobileMenuLinks">
+                  <a
+                    href="#"
+                    class="border-b-2 pb-2 block w-full border-gray-200"
+                    >محصولات ترک
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
       </div>
     </section>
