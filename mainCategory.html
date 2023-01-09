@@ -1,0 +1,996 @@
+<!DOCTYPE html>
+<html lang="fa-IR" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>فروشگاه لباس</title>
+    <link rel="stylesheet" href="./css/style5.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <script src="./js/script2.js" defer></script>
+  </head>
+  <body>
+    <!-- header -->
+    <section class="border-b-2 pb-4 border-gray-100">
+      <div class="section-container pt-8 md:pt-8">
+        <!-- logo/nav/shopping card -->
+        <div class="flex items-center justify-between px-4 md:px-0">
+          <!-- menu btn -->
+          <div class="md:hidden">
+            <button
+              id="menu-btn"
+              class="block z-20 hamburger focus:outline-none"
+            >
+              <span class="hamburger-top"></span>
+              <span class="hamburger-middle"></span>
+              <span class="hamburger-bottom"></span>
+            </button>
+          </div>
+          <!-- search -->
+          <div class="w-full mx-4">
+            <input
+              class="bg-gray-100 w-full px-4 py-1 text-sm focus:outline-none"
+              type="text"
+              placeholder="نام کالا یا کد محصول را جستجو کنید"
+            />
+          </div>
+          <!-- logo and menu -->
+          <div class="hidden md:flex items-center gap-6">
+            <img src="./images/logo.png" class="w-[32px]" alt="" />
+            <ul class="flex gap-6 font-semibold">
+              <li><a href="#">خانه</a></li>
+              <li><a href="#">فروشگاه</a></li>
+              <li><a href="#">وبلاگ</a></li>
+              <li><a href="#">تخفیف ویژه</a></li>
+              <li><a href="#">ارتباط با ما</a></li>
+            </ul>
+          </div>
+          <!-- basket and profile icon -->
+          <div class="flex items-center gap-4">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="w-6 h-6"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z"
+              />
+            </svg>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="w-6 h-6"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z"
+              />
+            </svg>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- header button -->
+    <section>
+      <div class="section-container my-8">
+        <a
+          href="#"
+          class="block w-full font-semibold bg-gray-200 py-2 rounded-md"
+          >محصولات جدید با 5% تخفیف + ارسال رایگان</a
+        >
+      </div>
+    </section>
+
+    <!-- header slider -->
+    <section>
+      <div class="section-container my-10">
+        <!-- slider -->
+        <div class="flex gap-4 overflow-scroll">
+          <!-- item 1 -->
+          <div class="shrink-0 pb-56 w-[80%] bg-gray-200 rounded-md"></div>
+          <!-- item 1 -->
+          <div class="shrink-0 pb-56 w-[80%] bg-gray-200 rounded-md"></div>
+          <!-- item 1 -->
+          <div class="shrink-0 pb-56 w-[80%] bg-gray-200 rounded-md"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- categories -->
+    <section>
+      <div class="section-container my-10">
+        <div class="flex justify-between gap-2">
+          <!-- item 1 -->
+          <div class="w-full">
+            <div class="pb-24 w-full bg-gray-200 rounded-md mb-2"></div>
+            <p class="text-sm">لباس زنانه</p>
+          </div>
+          <!-- item 1 -->
+          <div class="w-full">
+            <div class="pb-24 w-full bg-gray-200 rounded-md mb-2"></div>
+            <p class="text-sm">کفش زنانه</p>
+          </div>
+          <!-- item 1 -->
+          <div class="w-full">
+            <div class="pb-24 w-full bg-gray-200 rounded-md mb-2"></div>
+            <p class="text-sm">اکسسوری زنانه</p>
+          </div>
+          <!-- item 1 -->
+          <div class="w-full">
+            <div class="pb-24 w-full bg-gray-200 rounded-md mb-2"></div>
+            <p class="text-sm">ورزشی زنانه</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 24h sale -->
+    <section id="sale">
+      <div class="section-container my-20">
+        <!-- header -->
+        <div class="flex justify-between items-center">
+          <h3 class="font-bold">تخفیف های شگفت انگیز</h3>
+          <div dir="ltr" class="flex gap-2">
+            <!-- hour -->
+            <div
+              class="w-8 h-8 flex items-center justify-center bg-gray-200 rounded-lg font-bold"
+            >
+              18
+            </div>
+            <!-- minutes -->
+            <div
+              class="w-8 h-8 flex items-center justify-center bg-gray-200 rounded-lg font-bold"
+            >
+              25
+            </div>
+            <!-- seconds -->
+            <div
+              class="w-8 h-8 flex items-center justify-center bg-gray-200 rounded-lg font-bold"
+            >
+              00
+            </div>
+          </div>
+        </div>
+        <!-- products -->
+        <div class="flex gap-4 mt-10 overflow-x-auto overflow-y-hidden">
+          <!-- item 1 -->
+          <div class="mb-6">
+            <!-- image box -->
+            <div class="mb-2">
+              <!-- image -->
+              <div class="pb-52 w-[180px] bg-gray-200 rounded-lg"></div>
+            </div>
+            <!-- name -->
+            <p class="text-right mb-2">پیراهن آستین کوتاه</p>
+            <!-- prices -->
+            <div class="flex items-center justify-around text-sm">
+              <!-- main price -->
+              <p class="text-gray-500 line-through">450/000</p>
+              <!-- atm price -->
+              <p class="font-bold">399/000 تومان</p>
+            </div>
+          </div>
+          <!-- item 2 -->
+          <div class="mb-6">
+            <!-- image box -->
+            <div class="mb-2 relative">
+              <!-- image -->
+              <div class="pb-52 w-[180px] bg-gray-200 rounded-lg"></div>
+              <div
+                class="absolute bottom-0 left-0 right-0 rounded-b-lg py-1 text-sm bg-gray-300"
+              >
+                4 عدد باقی مانده است
+              </div>
+            </div>
+            <!-- name -->
+            <p class="text-right mb-2">پیراهن آستین کوتاه</p>
+            <!-- prices -->
+            <div class="flex items-center justify-around text-sm">
+              <!-- main price -->
+              <p class="text-gray-500 line-through">450/000</p>
+              <!-- atm price -->
+              <p class="font-bold">399/000 تومان</p>
+            </div>
+          </div>
+          <!-- item 3 -->
+          <div class="mb-6">
+            <!-- image box -->
+            <div class="mb-2 relative">
+              <!-- image -->
+              <div class="pb-52 w-[180px] bg-gray-200 rounded-lg"></div>
+              <div
+                class="absolute bottom-0 left-0 right-0 rounded-b-lg py-1 text-sm bg-gray-300"
+              >
+                4 عدد باقی مانده است
+              </div>
+            </div>
+            <!-- name -->
+            <p class="text-right mb-2">پیراهن آستین کوتاه</p>
+            <!-- prices -->
+            <div class="flex items-center justify-around text-sm">
+              <!-- main price -->
+              <p class="text-gray-500 line-through">450/000</p>
+              <!-- atm price -->
+              <p class="font-bold">399/000 تومان</p>
+            </div>
+          </div>
+          <!-- item 4 -->
+          <div class="mb-6">
+            <!-- image box -->
+            <div class="mb-2 relative">
+              <!-- image -->
+              <div class="pb-52 w-[180px] bg-gray-200 rounded-lg"></div>
+              <div
+                class="absolute bottom-0 left-0 right-0 rounded-b-lg py-1 text-sm bg-gray-300"
+              >
+                4 عدد باقی مانده است
+              </div>
+            </div>
+            <!-- name -->
+            <p class="text-right mb-2">پیراهن آستین کوتاه</p>
+            <!-- prices -->
+            <div class="flex items-center justify-around text-sm">
+              <!-- main price -->
+              <p class="text-gray-500 line-through">450/000</p>
+              <!-- atm price -->
+              <p class="font-bold">399/000 تومان</p>
+            </div>
+          </div>
+          <!-- item 5 -->
+          <div class="mb-6">
+            <!-- image box -->
+            <div class="mb-2 relative">
+              <!-- image -->
+              <div class="pb-52 w-[180px] bg-gray-200 rounded-lg"></div>
+              <div
+                class="absolute bottom-0 left-0 right-0 rounded-b-lg py-1 text-sm bg-gray-300"
+              >
+                4 عدد باقی مانده است
+              </div>
+            </div>
+            <!-- name -->
+            <p class="text-right mb-2">پیراهن آستین کوتاه</p>
+            <!-- prices -->
+            <div class="flex items-center justify-around text-sm">
+              <!-- main price -->
+              <p class="text-gray-500 line-through">450/000</p>
+              <!-- atm price -->
+              <p class="font-bold">399/000 تومان</p>
+            </div>
+          </div>
+        </div>
+        <!-- button -->
+        <div class="mt-11">
+          <a href="#" class="px-8 py-2 bg-gray-200 rounded-lg"
+            >مشاهده همه کالاهای شگفت انگیز</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- newest products -->
+    <section>
+      <div class="section-container">
+        <h3 class="text-right font-bold mb-8">جدیدترین محصولات</h3>
+        <!-- products -->
+        <div class="flex gap-4 mt-10 overflow-x-auto overflow-y-hidden">
+          <!-- item 1 -->
+          <div class="mb-6">
+            <!-- image box -->
+            <div class="mb-2 relative">
+              <!-- image -->
+              <div class="pb-52 w-[180px] bg-gray-200 rounded-lg"></div>
+              <!-- bottom text -->
+              <div
+                class="absolute bottom-2 left-2 right-2 rounded-lg py-1 text-sm bg-gray-300"
+              >
+                20% تخفیف بیشتر
+              </div>
+              <!-- discount percentage -->
+              <div
+                class="absolute flex items-center justify-center top-5 right-0 bg-gray-300 px-2 text-sm py-1"
+              >
+                35%
+              </div>
+              <div
+                class="absolute flex items-center justify-center top-4 left-2 rounded-full w-8 h-8 bg-white px-2 text-sm py-1"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="w-6 h-6"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z"
+                  />
+                </svg>
+              </div>
+            </div>
+            <!-- name -->
+            <p class="text-right mb-2">پیراهن آستین کوتاه</p>
+            <!-- prices -->
+            <div class="flex items-center justify-around text-sm">
+              <!-- main price -->
+              <p class="text-gray-500 line-through">450/000</p>
+              <!-- atm price -->
+              <p class="font-bold">399/000 تومان</p>
+            </div>
+          </div>
+          <!-- item 2 -->
+          <div class="mb-6">
+            <!-- image box -->
+            <div class="mb-2 relative">
+              <!-- image -->
+              <div class="pb-52 w-[180px] bg-gray-200 rounded-lg"></div>
+              <!-- bottom text -->
+              <div
+                class="absolute bottom-2 left-2 right-2 rounded-lg py-1 text-sm bg-gray-300"
+              >
+                20% تخفیف بیشتر
+              </div>
+              <!-- discount percentage -->
+              <div
+                class="absolute flex items-center justify-center top-5 right-0 bg-gray-300 px-2 text-sm py-1"
+              >
+                35%
+              </div>
+              <div
+                class="absolute flex items-center justify-center top-4 left-2 rounded-full w-8 h-8 bg-white px-2 text-sm py-1"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="w-6 h-6"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z"
+                  />
+                </svg>
+              </div>
+            </div>
+            <!-- name -->
+            <p class="text-right mb-2">پیراهن آستین کوتاه</p>
+            <!-- prices -->
+            <div class="flex items-center justify-around text-sm">
+              <!-- main price -->
+              <p class="text-gray-500 line-through">450/000</p>
+              <!-- atm price -->
+              <p class="font-bold">399/000 تومان</p>
+            </div>
+          </div>
+          <!-- item 3 -->
+          <div class="mb-6">
+            <!-- image box -->
+            <div class="mb-2 relative">
+              <!-- image -->
+              <div class="pb-52 w-[180px] bg-gray-200 rounded-lg"></div>
+              <!-- bottom text -->
+
+              <!-- discount percentage -->
+              <div
+                class="absolute flex items-center justify-center top-5 right-0 bg-gray-300 px-2 text-sm py-1"
+              >
+                35%
+              </div>
+              <div
+                class="absolute flex items-center justify-center top-4 left-2 rounded-full w-8 h-8 bg-white px-2 text-sm py-1"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="w-6 h-6"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z"
+                  />
+                </svg>
+              </div>
+            </div>
+            <!-- name -->
+            <p class="text-right mb-2">پیراهن آستین کوتاه</p>
+            <!-- prices -->
+            <div class="flex items-center justify-around text-sm">
+              <!-- main price -->
+              <p class="text-gray-500 line-through">450/000</p>
+              <!-- atm price -->
+              <p class="font-bold">399/000 تومان</p>
+            </div>
+          </div>
+          <!-- item 4 -->
+          <div class="mb-6">
+            <!-- image box -->
+            <div class="mb-2 relative">
+              <!-- image -->
+              <div class="pb-52 w-[180px] bg-gray-200 rounded-lg"></div>
+              <!-- bottom text -->
+              <div
+                class="absolute bottom-2 left-2 right-2 rounded-lg py-1 text-sm bg-gray-300"
+              >
+                20% تخفیف بیشتر
+              </div>
+              <!-- discount percentage -->
+              <div
+                class="absolute flex items-center justify-center top-5 right-0 bg-gray-300 px-2 text-sm py-1"
+              >
+                35%
+              </div>
+              <div
+                class="absolute flex items-center justify-center top-4 left-2 rounded-full w-8 h-8 bg-white px-2 text-sm py-1"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="w-6 h-6"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z"
+                  />
+                </svg>
+              </div>
+            </div>
+            <!-- name -->
+            <p class="text-right mb-2">پیراهن آستین کوتاه</p>
+            <!-- prices -->
+            <div class="flex items-center justify-around text-sm">
+              <!-- main price -->
+              <p class="text-gray-500 line-through">450/000</p>
+              <!-- atm price -->
+              <p class="font-bold">399/000 تومان</p>
+            </div>
+          </div>
+          <!-- item 5 -->
+          <div class="mb-6">
+            <!-- image box -->
+            <div class="mb-2 relative">
+              <!-- image -->
+              <div class="pb-52 w-[180px] bg-gray-200 rounded-lg"></div>
+              <!-- bottom text -->
+              <div
+                class="absolute bottom-2 left-2 right-2 rounded-lg py-1 text-sm bg-gray-300"
+              >
+                20% تخفیف بیشتر
+              </div>
+              <!-- discount percentage -->
+              <div
+                class="absolute flex items-center justify-center top-5 right-0 bg-gray-300 px-2 text-sm py-1"
+              >
+                35%
+              </div>
+              <div
+                class="absolute flex items-center justify-center top-4 left-2 rounded-full w-8 h-8 bg-white px-2 text-sm py-1"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="w-6 h-6"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z"
+                  />
+                </svg>
+              </div>
+            </div>
+            <!-- name -->
+            <p class="text-right mb-2">پیراهن آستین کوتاه</p>
+            <!-- prices -->
+            <div class="flex items-center justify-around text-sm">
+              <!-- main price -->
+              <p class="text-gray-500 line-through">450/000</p>
+              <!-- atm price -->
+              <p class="font-bold">399/000 تومان</p>
+            </div>
+          </div>
+        </div>
+        <!-- button -->
+        <div class="mt-11">
+          <a href="#" class="px-8 py-2 bg-gray-200 rounded-lg">مشاهده همه</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- categories and tags -->
+    <section id="categories">
+      <div class="section-container my-20">
+        <!-- categories -->
+        <div class="grid grid-cols-2 gap-3">
+          <!-- item 1 -->
+          <div class="relative">
+            <!-- image -->
+            <div class="pb-[180px] w-full bg-gray-200 rounded-lg"></div>
+            <!-- link -->
+            <a
+              href="#"
+              class="absolute bottom-0 left-0 right-0 bg-gray-300 rounded-b-lg"
+              >دسته بندی یا تگ</a
+            >
+          </div>
+          <!-- item 2 -->
+          <div class="relative">
+            <!-- image -->
+            <div class="pb-[180px] w-full bg-gray-200 rounded-lg"></div>
+            <!-- link -->
+            <a
+              href="#"
+              class="absolute bottom-0 left-0 right-0 bg-gray-300 rounded-b-lg"
+              >دسته بندی یا تگ</a
+            >
+          </div>
+          <!-- item 3 -->
+          <div class="relative">
+            <!-- image -->
+            <div class="pb-[180px] w-full bg-gray-200 rounded-lg"></div>
+            <!-- link -->
+            <a
+              href="#"
+              class="absolute bottom-0 left-0 right-0 bg-gray-300 rounded-b-lg"
+              >دسته بندی یا تگ</a
+            >
+          </div>
+          <!-- item 4 -->
+          <div class="relative">
+            <!-- image -->
+            <div class="pb-[180px] w-full bg-gray-200 rounded-lg"></div>
+            <!-- link -->
+            <a
+              href="#"
+              class="absolute bottom-0 left-0 right-0 bg-gray-300 rounded-b-lg"
+              >دسته بندی یا تگ</a
+            >
+          </div>
+        </div>
+        <!-- button -->
+        <div class="mt-10">
+          <a href="#" class="px-8 py-2 bg-gray-200 rounded-lg"
+            >مشاهده همه دسته بندی های زنانه</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- newest products -->
+    <section>
+      <div class="section-container my-20">
+        <h3 class="text-right font-bold mb-8">محبوب ترین ها</h3>
+        <!-- products -->
+        <div class="flex gap-4 mt-10 overflow-x-auto overflow-y-hidden">
+          <!-- item 1 -->
+          <div class="mb-6">
+            <!-- image box -->
+            <div class="mb-2 relative">
+              <!-- image -->
+              <div class="pb-52 w-[180px] bg-gray-200 rounded-lg"></div>
+              <!-- bottom text -->
+              <div
+                class="absolute bottom-2 left-2 right-2 rounded-lg py-1 text-sm bg-gray-300"
+              >
+                20% تخفیف بیشتر
+              </div>
+              <!-- discount percentage -->
+              <div
+                class="absolute flex items-center justify-center top-5 right-0 bg-gray-300 px-2 text-sm py-1"
+              >
+                35%
+              </div>
+              <div
+                class="absolute flex items-center justify-center top-4 left-2 rounded-full w-8 h-8 bg-white px-2 text-sm py-1"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="w-6 h-6"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z"
+                  />
+                </svg>
+              </div>
+            </div>
+            <!-- name -->
+            <p class="text-right mb-2">پیراهن آستین کوتاه</p>
+            <!-- prices -->
+            <div class="flex items-center justify-around text-sm">
+              <!-- main price -->
+              <p class="text-gray-500 line-through">450/000</p>
+              <!-- atm price -->
+              <p class="font-bold">399/000 تومان</p>
+            </div>
+          </div>
+          <!-- item 2 -->
+          <div class="mb-6">
+            <!-- image box -->
+            <div class="mb-2 relative">
+              <!-- image -->
+              <div class="pb-52 w-[180px] bg-gray-200 rounded-lg"></div>
+              <!-- bottom text -->
+              <div
+                class="absolute bottom-2 left-2 right-2 rounded-lg py-1 text-sm bg-gray-300"
+              >
+                20% تخفیف بیشتر
+              </div>
+              <!-- discount percentage -->
+              <div
+                class="absolute flex items-center justify-center top-5 right-0 bg-gray-300 px-2 text-sm py-1"
+              >
+                35%
+              </div>
+              <div
+                class="absolute flex items-center justify-center top-4 left-2 rounded-full w-8 h-8 bg-white px-2 text-sm py-1"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="w-6 h-6"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z"
+                  />
+                </svg>
+              </div>
+            </div>
+            <!-- name -->
+            <p class="text-right mb-2">پیراهن آستین کوتاه</p>
+            <!-- prices -->
+            <div class="flex items-center justify-around text-sm">
+              <!-- main price -->
+              <p class="text-gray-500 line-through">450/000</p>
+              <!-- atm price -->
+              <p class="font-bold">399/000 تومان</p>
+            </div>
+          </div>
+          <!-- item 3 -->
+          <div class="mb-6">
+            <!-- image box -->
+            <div class="mb-2 relative">
+              <!-- image -->
+              <div class="pb-52 w-[180px] bg-gray-200 rounded-lg"></div>
+              <!-- bottom text -->
+
+              <!-- discount percentage -->
+              <div
+                class="absolute flex items-center justify-center top-5 right-0 bg-gray-300 px-2 text-sm py-1"
+              >
+                35%
+              </div>
+              <div
+                class="absolute flex items-center justify-center top-4 left-2 rounded-full w-8 h-8 bg-white px-2 text-sm py-1"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="w-6 h-6"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z"
+                  />
+                </svg>
+              </div>
+            </div>
+            <!-- name -->
+            <p class="text-right mb-2">پیراهن آستین کوتاه</p>
+            <!-- prices -->
+            <div class="flex items-center justify-around text-sm">
+              <!-- main price -->
+              <p class="text-gray-500 line-through">450/000</p>
+              <!-- atm price -->
+              <p class="font-bold">399/000 تومان</p>
+            </div>
+          </div>
+          <!-- item 4 -->
+          <div class="mb-6">
+            <!-- image box -->
+            <div class="mb-2 relative">
+              <!-- image -->
+              <div class="pb-52 w-[180px] bg-gray-200 rounded-lg"></div>
+              <!-- bottom text -->
+              <div
+                class="absolute bottom-2 left-2 right-2 rounded-lg py-1 text-sm bg-gray-300"
+              >
+                20% تخفیف بیشتر
+              </div>
+              <!-- discount percentage -->
+              <div
+                class="absolute flex items-center justify-center top-5 right-0 bg-gray-300 px-2 text-sm py-1"
+              >
+                35%
+              </div>
+              <div
+                class="absolute flex items-center justify-center top-4 left-2 rounded-full w-8 h-8 bg-white px-2 text-sm py-1"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="w-6 h-6"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z"
+                  />
+                </svg>
+              </div>
+            </div>
+            <!-- name -->
+            <p class="text-right mb-2">پیراهن آستین کوتاه</p>
+            <!-- prices -->
+            <div class="flex items-center justify-around text-sm">
+              <!-- main price -->
+              <p class="text-gray-500 line-through">450/000</p>
+              <!-- atm price -->
+              <p class="font-bold">399/000 تومان</p>
+            </div>
+          </div>
+          <!-- item 5 -->
+          <div class="mb-6">
+            <!-- image box -->
+            <div class="mb-2 relative">
+              <!-- image -->
+              <div class="pb-52 w-[180px] bg-gray-200 rounded-lg"></div>
+              <!-- bottom text -->
+              <div
+                class="absolute bottom-2 left-2 right-2 rounded-lg py-1 text-sm bg-gray-300"
+              >
+                20% تخفیف بیشتر
+              </div>
+              <!-- discount percentage -->
+              <div
+                class="absolute flex items-center justify-center top-5 right-0 bg-gray-300 px-2 text-sm py-1"
+              >
+                35%
+              </div>
+              <div
+                class="absolute flex items-center justify-center top-4 left-2 rounded-full w-8 h-8 bg-white px-2 text-sm py-1"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="w-6 h-6"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z"
+                  />
+                </svg>
+              </div>
+            </div>
+            <!-- name -->
+            <p class="text-right mb-2">پیراهن آستین کوتاه</p>
+            <!-- prices -->
+            <div class="flex items-center justify-around text-sm">
+              <!-- main price -->
+              <p class="text-gray-500 line-through">450/000</p>
+              <!-- atm price -->
+              <p class="font-bold">399/000 تومان</p>
+            </div>
+          </div>
+        </div>
+        <!-- button -->
+        <div class="mt-11">
+          <a href="#" class="px-8 py-2 bg-gray-200 rounded-lg">مشاهده همه</a>
+        </div>
+      </div>
+    </section>
+    <!-- categories and tags -->
+    <section id="categories2">
+      <div class="section-container my-20">
+        <!-- categories -->
+        <div class="grid grid-cols-2 gap-3">
+          <!-- item 1 -->
+          <div class="col-span-2">
+            <!-- image -->
+            <div class="pb-[180px] w-full bg-gray-200 rounded-lg"></div>
+          </div>
+          <!-- item 2 -->
+          <div>
+            <!-- image -->
+            <div class="pb-[180px] w-full bg-gray-200 rounded-lg"></div>
+          </div>
+          <!-- item 1 -->
+          <div>
+            <!-- image -->
+            <div class="pb-[180px] w-full bg-gray-200 rounded-lg"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- brands -->
+    <section id="brands">
+      <div class="max-w-4xl mx-auto text-center px-10 my-20">
+        <div class="flex justify-around gap-4 md:gap-0">
+          <!-- item 1 -->
+          <div class="w-24">
+            <a href="#"> <img src="./images/addidas-logo.png" alt="" /></a>
+          </div>
+          <!-- item 2 -->
+          <div class="w-24">
+            <a href="#"> <img src="./images/chanel-logo.png" alt="" /></a>
+          </div>
+          <!-- item 3 -->
+          <div class="w-24">
+            <a href="#"> <img src="./images/gucci-logo.png" alt="" /></a>
+          </div>
+          <!-- item 4 -->
+          <div class="w-24">
+            <a href="#"> <img src="./images/zara-logo.png" alt="" /></a>
+          </div>
+          <!-- item 5 -->
+          <div class="w-24">
+            <a href="#"> <img src="./images/rebook-logo.png" alt="" /></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="advantages">
+      <div class="section-container my-20 px-6">
+        <div class="flex items-center gap-4 justify-center">
+          <!-- item 1 -->
+          <div class="flex flex-col items-center justify-center">
+            <!-- img -->
+            <div class="pb-20 w-20 bg-gray-300 rounded-full mb-5"></div>
+            <h4 class="font-bold mb-2">ارسال رایگان</h4>
+            <p class="text-sm max-w-sm">
+              برای تمامی سفارشات بالای 400 هزار تومان
+            </p>
+          </div>
+          <!-- item 2 -->
+          <div class="flex flex-col items-center justify-center">
+            <!-- img -->
+            <div class="pb-20 w-20 bg-gray-300 rounded-full mb-5"></div>
+            <h4 class="font-bold mb-2">ارسال رایگان</h4>
+            <p class="text-sm max-w-sm">
+              برای تمامی سفارشات بالای 400 هزار تومان
+            </p>
+          </div>
+          <!-- item 3 -->
+          <div class="flex flex-col items-center justify-center">
+            <!-- img -->
+            <div class="pb-20 w-20 bg-gray-300 rounded-full mb-5"></div>
+            <h4 class="font-bold mb-2">ارسال رایگان</h4>
+            <p class="text-sm max-w-sm">
+              برای تمامی سفارشات بالای 400 هزار تومان
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="bg-[#e7e7e7]">
+      <div class="section-container p-16">
+        <!-- container -->
+        <div
+          class="flex flex-col gap-8 md:flex-row items-center md:items-start justify-center md:justify-between text-center md:text-right"
+        >
+          <!-- description -->
+          <div>
+            <h3 class="font-bold mb-4">فروشگاه برند ما</h3>
+            <p class="text-sm mx-auto md:mx-0 w-2/3 mb-4">
+              فروشگاه برند یکی از بزرگترین تامین کنندگان پوشاک جوانان ایرانی.
+            </p>
+            <p class="text-sm mb-1">تماس : 88112232-021</p>
+            <p class="text-sm">تماس : 88114422-021</p>
+          </div>
+          <!-- menu 1 -->
+          <div>
+            <h3 class="font-bold mb-6 md:mb-4">در مورد برند</h3>
+            <ul class="flex flex-col text-sm gap-6 md:gap-2">
+              <li>فروشگاه</li>
+              <li>دسته بندی ها</li>
+              <li>وبلاگ</li>
+              <li>محصولات</li>
+            </ul>
+          </div>
+          <!-- menu 2 -->
+          <div>
+            <h3 class="font-bold mb-6 md:mb-4">راهنمای خرید</h3>
+            <ul class="flex flex-col text-sm gap-6 md:gap-2">
+              <li>قوانین و مقررات</li>
+              <li>شیوه ارسال محصولات</li>
+              <li>مرجوعی کالا</li>
+              <li>کلوب مشتریان</li>
+            </ul>
+          </div>
+          <!-- newsletter and socials -->
+          <div>
+            <!-- newsletter -->
+            <div class="mb-8 md:mb-4">
+              <h3 class="font-bold mb-4">خبرنامه برند</h3>
+              <p class="text-sm mb-4 md:mb-2">عضویت در خبرنامه فروشگاه پوشاک</p>
+              <input
+                type="text"
+                placeholder="email@gmail.com"
+                class="placeholder:text-xs px-2 py-1 text-left"
+              />
+            </div>
+            <!-- socials -->
+            <div class="flex justify-center gap-4">
+              <!-- item 1 -->
+              <div class="w-8 h-8">
+                <a href="#">
+                  <img src="./images/telegram.png" alt="" />
+                </a>
+              </div>
+              <!-- item 2 -->
+              <div class="w-8 h-8">
+                <a href="#">
+                  <img src="./images/instagram.png" alt="" />
+                </a>
+              </div>
+              <!-- item 3 -->
+              <div class="w-8 h-8">
+                <a href="#">
+                  <img src="./images/pinterest.png" alt="" />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- footer -->
+        <p class="text-center md:text-right mt-12 md:mt-6 text-xs">
+          تمامی حقوق برای شرکت
+          <span class="font-bold">توکان تجارت آرسس</span> محفوظ می باشد
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -20,7 +20,7 @@ body {
 }
 
 .section-container {
-  @apply max-w-6xl mx-auto text-center px-3;
+  @apply container max-w-6xl mx-auto text-center px-3;
 }
 
 .hamburger {
