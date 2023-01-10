@@ -1,0 +1,1414 @@
+<!DOCTYPE html>
+<html lang="fa-IR" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>فروشگاه لباس</title>
+    <link rel="stylesheet" href="./css/style6.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <script src="./js/script2.js" defer></script>
+  </head>
+  <body>
+    <!-- header -->
+    <section class="border-b-2 pb-4 border-gray-100">
+      <div class="section-container pt-8 md:pt-8">
+        <!-- logo/nav/shopping card -->
+        <div class="flex items-center justify-between px-4 md:px-0">
+          <!-- menu btn -->
+          <div class="md:hidden">
+            <button
+              id="menu-btn"
+              class="block z-20 hamburger focus:outline-none"
+            >
+              <span class="hamburger-top"></span>
+              <span class="hamburger-middle"></span>
+              <span class="hamburger-bottom"></span>
+            </button>
+          </div>
+          <!-- search -->
+          <div class="w-full mx-4">
+            <input
+              class="bg-gray-100 w-full px-4 py-1 text-sm focus:outline-none"
+              type="text"
+              placeholder="نام کالا یا کد محصول را جستجو کنید"
+            />
+          </div>
+          <!-- logo and menu -->
+          <div class="hidden md:flex items-center gap-6">
+            <img src="./images/logo.png" class="w-[32px]" alt="" />
+            <ul class="flex gap-6 font-semibold">
+              <li><a href="#">خانه</a></li>
+              <li><a href="#">فروشگاه</a></li>
+              <li><a href="#">وبلاگ</a></li>
+              <li><a href="#">تخفیف ویژه</a></li>
+              <li><a href="#">ارتباط با ما</a></li>
+            </ul>
+          </div>
+          <!-- basket and profile icon -->
+          <div class="flex items-center gap-4">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="w-6 h-6"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z"
+              />
+            </svg>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="w-6 h-6"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z"
+              />
+            </svg>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- header section -->
+    <section class="shadow-md pb-1">
+      <div class="section-container my-5">
+        <div class="flex justify-between px-4">
+          <span class="font-bold mx-auto">لباس زنانه</span>
+          <a href="#"
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="w-6 h-6"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M15.75 19.5L8.25 12l7.5-7.5"
+              />
+            </svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- filter and order buttons -->
+    <section>
+      <div class="section-container mt-16 mb-4">
+        <div class="flex justify-between">
+          <!-- buttons -->
+          <div class="flex gap-2">
+            <a
+              href="#"
+              class="px-2 border border-gray-600 flex gap-2 py-1 text-sm text-gray-700 rounded-md"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-6 h-6"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M12 3c2.755 0 5.455.232 8.083.678.533.09.917.556.917 1.096v1.044a2.25 2.25 0 01-.659 1.591l-5.432 5.432a2.25 2.25 0 00-.659 1.591v2.927a2.25 2.25 0 01-1.244 2.013L9.75 21v-6.568a2.25 2.25 0 00-.659-1.591L3.659 7.409A2.25 2.25 0 013 5.818V4.774c0-.54.384-1.006.917-1.096A48.32 48.32 0 0112 3z"
+                />
+              </svg>
+              <span>فیلتر کردن</span>
+            </a>
+            <a
+              href="#"
+              class="px-2 border border-gray-600 flex gap-2 py-1 text-sm text-gray-700 rounded-md"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-6 h-6"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M3.75 6.75h16.5M3.75 12h16.5M12 17.25h8.25"
+                />
+              </svg>
+              <span>مرتب سازی</span>
+            </a>
+          </div>
+          <!-- view style -->
+          <div>
+            <button>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-8 h-8 text-gray-600"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M3.75 6A2.25 2.25 0 016 3.75h2.25A2.25 2.25 0 0110.5 6v2.25a2.25 2.25 0 01-2.25 2.25H6a2.25 2.25 0 01-2.25-2.25V6zM3.75 15.75A2.25 2.25 0 016 13.5h2.25a2.25 2.25 0 012.25 2.25V18a2.25 2.25 0 01-2.25 2.25H6A2.25 2.25 0 013.75 18v-2.25zM13.5 6a2.25 2.25 0 012.25-2.25H18A2.25 2.25 0 0120.25 6v2.25A2.25 2.25 0 0118 10.5h-2.25a2.25 2.25 0 01-2.25-2.25V6zM13.5 15.75a2.25 2.25 0 012.25-2.25H18a2.25 2.25 0 012.25 2.25V18A2.25 2.25 0 0118 20.25h-2.25A2.25 2.25 0 0113.5 18v-2.25z"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- products -->
+    <section id="products">
+      <div class="section-container my-14">
+        <!-- grid view -->
+        <div class="grid grid-cols-2 gap-4 gap-y-8">
+          <!-- item 1 -->
+          <div>
+            <!-- image box -->
+            <div class="mb-2 relative">
+              <!-- image -->
+              <div class="pb-64 w-full bg-gray-200 rounded-lg"></div>
+              <!-- bottom text -->
+              <div
+                class="absolute bottom-2 left-2 right-2 rounded-lg py-1 text-sm bg-gray-300"
+              >
+                20% تخفیف بیشتر
+              </div>
+              <!-- discount percentage -->
+              <div
+                class="absolute flex items-center justify-center top-5 right-0 bg-gray-300 px-2 text-sm py-1"
+              >
+                35%
+              </div>
+              <div
+                class="absolute flex items-center justify-center top-4 left-2 rounded-full w-8 h-8 bg-white px-2 text-sm py-1"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="w-6 h-6"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z"
+                  />
+                </svg>
+              </div>
+            </div>
+            <!-- name -->
+            <p class="text-right mb-2">پیراهن آستین کوتاه</p>
+            <!-- prices -->
+            <div class="flex items-center justify-around text-sm">
+              <!-- main price -->
+              <p class="text-gray-500 line-through">450/000</p>
+              <!-- atm price -->
+              <p class="font-bold">399/000 تومان</p>
+            </div>
+          </div>
+          <!-- item 2 -->
+          <div>
+            <!-- image box -->
+            <div class="mb-2 relative">
+              <!-- image -->
+              <div class="pb-64 w-full bg-gray-200 rounded-lg"></div>
+              <!-- bottom text -->
+              <div
+                class="absolute bottom-2 left-2 right-2 rounded-lg py-1 text-sm bg-gray-300"
+              >
+                20% تخفیف بیشتر
+              </div>
+              <!-- discount percentage -->
+              <div
+                class="absolute flex items-center justify-center top-5 right-0 bg-gray-300 px-2 text-sm py-1"
+              >
+                35%
+              </div>
+              <div
+                class="absolute flex items-center justify-center top-4 left-2 rounded-full w-8 h-8 bg-white px-2 text-sm py-1"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="w-6 h-6"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z"
+                  />
+                </svg>
+              </div>
+            </div>
+            <!-- name -->
+            <p class="text-right mb-2">پیراهن آستین کوتاه</p>
+            <!-- prices -->
+            <div class="flex items-center justify-around text-sm">
+              <!-- main price -->
+              <p class="text-gray-500 line-through">450/000</p>
+              <!-- atm price -->
+              <p class="font-bold">399/000 تومان</p>
+            </div>
+          </div>
+          <!-- item 3 -->
+          <div>
+            <!-- image box -->
+            <div class="mb-2 relative">
+              <!-- image -->
+              <div class="pb-64 w-full bg-gray-200 rounded-lg"></div>
+              <!-- bottom text -->
+              <div
+                class="absolute bottom-2 left-2 right-2 rounded-lg py-1 text-sm bg-gray-300"
+              >
+                20% تخفیف بیشتر
+              </div>
+              <!-- discount percentage -->
+              <div
+                class="absolute flex items-center justify-center top-5 right-0 bg-gray-300 px-2 text-sm py-1"
+              >
+                35%
+              </div>
+              <div
+                class="absolute flex items-center justify-center top-4 left-2 rounded-full w-8 h-8 bg-white px-2 text-sm py-1"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="w-6 h-6"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z"
+                  />
+                </svg>
+              </div>
+            </div>
+            <!-- name -->
+            <p class="text-right mb-2">پیراهن آستین کوتاه</p>
+            <!-- prices -->
+            <div class="flex items-center justify-around text-sm">
+              <!-- main price -->
+              <p class="text-gray-500 line-through">450/000</p>
+              <!-- atm price -->
+              <p class="font-bold">399/000 تومان</p>
+            </div>
+          </div>
+          <!-- item 4 -->
+          <div>
+            <!-- image box -->
+            <div class="mb-2 relative">
+              <!-- image -->
+              <div class="pb-64 w-full bg-gray-200 rounded-lg"></div>
+              <!-- bottom text -->
+              <div
+                class="absolute bottom-2 left-2 right-2 rounded-lg py-1 text-sm bg-gray-300"
+              >
+                20% تخفیف بیشتر
+              </div>
+              <!-- discount percentage -->
+              <div
+                class="absolute flex items-center justify-center top-5 right-0 bg-gray-300 px-2 text-sm py-1"
+              >
+                35%
+              </div>
+              <div
+                class="absolute flex items-center justify-center top-4 left-2 rounded-full w-8 h-8 bg-white px-2 text-sm py-1"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="w-6 h-6"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z"
+                  />
+                </svg>
+              </div>
+            </div>
+            <!-- name -->
+            <p class="text-right mb-2">پیراهن آستین کوتاه</p>
+            <!-- prices -->
+            <div class="flex items-center justify-around text-sm">
+              <!-- main price -->
+              <p class="text-gray-500 line-through">450/000</p>
+              <!-- atm price -->
+              <p class="font-bold">399/000 تومان</p>
+            </div>
+          </div>
+          <!-- item 5 -->
+          <div>
+            <!-- image box -->
+            <div class="mb-2 relative">
+              <!-- image -->
+              <div class="pb-64 w-full bg-gray-200 rounded-lg"></div>
+              <!-- bottom text -->
+              <div
+                class="absolute bottom-2 left-2 right-2 rounded-lg py-1 text-sm bg-gray-300"
+              >
+                20% تخفیف بیشتر
+              </div>
+              <!-- discount percentage -->
+              <div
+                class="absolute flex items-center justify-center top-5 right-0 bg-gray-300 px-2 text-sm py-1"
+              >
+                35%
+              </div>
+              <div
+                class="absolute flex items-center justify-center top-4 left-2 rounded-full w-8 h-8 bg-white px-2 text-sm py-1"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="w-6 h-6"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z"
+                  />
+                </svg>
+              </div>
+            </div>
+            <!-- name -->
+            <p class="text-right mb-2">پیراهن آستین کوتاه</p>
+            <!-- prices -->
+            <div class="flex items-center justify-around text-sm">
+              <!-- main price -->
+              <p class="text-gray-500 line-through">450/000</p>
+              <!-- atm price -->
+              <p class="font-bold">399/000 تومان</p>
+            </div>
+          </div>
+          <!-- item 6 -->
+          <div>
+            <!-- image box -->
+            <div class="mb-2 relative">
+              <!-- image -->
+              <div class="pb-64 w-full bg-gray-200 rounded-lg"></div>
+              <!-- bottom text -->
+              <div
+                class="absolute bottom-2 left-2 right-2 rounded-lg py-1 text-sm bg-gray-300"
+              >
+                20% تخفیف بیشتر
+              </div>
+              <!-- discount percentage -->
+              <div
+                class="absolute flex items-center justify-center top-5 right-0 bg-gray-300 px-2 text-sm py-1"
+              >
+                35%
+              </div>
+              <div
+                class="absolute flex items-center justify-center top-4 left-2 rounded-full w-8 h-8 bg-white px-2 text-sm py-1"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="w-6 h-6"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z"
+                  />
+                </svg>
+              </div>
+            </div>
+            <!-- name -->
+            <p class="text-right mb-2">پیراهن آستین کوتاه</p>
+            <!-- prices -->
+            <div class="flex items-center justify-around text-sm">
+              <!-- main price -->
+              <p class="text-gray-500 line-through">450/000</p>
+              <!-- atm price -->
+              <p class="font-bold">399/000 تومان</p>
+            </div>
+          </div>
+          <!-- item 7 -->
+          <div>
+            <!-- image box -->
+            <div class="mb-2 relative">
+              <!-- image -->
+              <div class="pb-64 w-full bg-gray-200 rounded-lg"></div>
+              <!-- bottom text -->
+              <div
+                class="absolute bottom-2 left-2 right-2 rounded-lg py-1 text-sm bg-gray-300"
+              >
+                20% تخفیف بیشتر
+              </div>
+              <!-- discount percentage -->
+              <div
+                class="absolute flex items-center justify-center top-5 right-0 bg-gray-300 px-2 text-sm py-1"
+              >
+                35%
+              </div>
+              <div
+                class="absolute flex items-center justify-center top-4 left-2 rounded-full w-8 h-8 bg-white px-2 text-sm py-1"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="w-6 h-6"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z"
+                  />
+                </svg>
+              </div>
+            </div>
+            <!-- name -->
+            <p class="text-right mb-2">پیراهن آستین کوتاه</p>
+            <!-- prices -->
+            <div class="flex items-center justify-around text-sm">
+              <!-- main price -->
+              <p class="text-gray-500 line-through">450/000</p>
+              <!-- atm price -->
+              <p class="font-bold">399/000 تومان</p>
+            </div>
+          </div>
+          <!-- item 8 -->
+          <div>
+            <!-- image box -->
+            <div class="mb-2 relative">
+              <!-- image -->
+              <div class="pb-64 w-full bg-gray-200 rounded-lg"></div>
+              <!-- bottom text -->
+              <div
+                class="absolute bottom-2 left-2 right-2 rounded-lg py-1 text-sm bg-gray-300"
+              >
+                20% تخفیف بیشتر
+              </div>
+              <!-- discount percentage -->
+              <div
+                class="absolute flex items-center justify-center top-5 right-0 bg-gray-300 px-2 text-sm py-1"
+              >
+                35%
+              </div>
+              <div
+                class="absolute flex items-center justify-center top-4 left-2 rounded-full w-8 h-8 bg-white px-2 text-sm py-1"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="w-6 h-6"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z"
+                  />
+                </svg>
+              </div>
+            </div>
+            <!-- name -->
+            <p class="text-right mb-2">پیراهن آستین کوتاه</p>
+            <!-- prices -->
+            <div class="flex items-center justify-around text-sm">
+              <!-- main price -->
+              <p class="text-gray-500 line-through">450/000</p>
+              <!-- atm price -->
+              <p class="font-bold">399/000 تومان</p>
+            </div>
+          </div>
+          <!-- item 9 -->
+          <div>
+            <!-- image box -->
+            <div class="mb-2 relative">
+              <!-- image -->
+              <div class="pb-64 w-full bg-gray-200 rounded-lg"></div>
+              <!-- bottom text -->
+              <div
+                class="absolute bottom-2 left-2 right-2 rounded-lg py-1 text-sm bg-gray-300"
+              >
+                20% تخفیف بیشتر
+              </div>
+              <!-- discount percentage -->
+              <div
+                class="absolute flex items-center justify-center top-5 right-0 bg-gray-300 px-2 text-sm py-1"
+              >
+                35%
+              </div>
+              <div
+                class="absolute flex items-center justify-center top-4 left-2 rounded-full w-8 h-8 bg-white px-2 text-sm py-1"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="w-6 h-6"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z"
+                  />
+                </svg>
+              </div>
+            </div>
+            <!-- name -->
+            <p class="text-right mb-2">پیراهن آستین کوتاه</p>
+            <!-- prices -->
+            <div class="flex items-center justify-around text-sm">
+              <!-- main price -->
+              <p class="text-gray-500 line-through">450/000</p>
+              <!-- atm price -->
+              <p class="font-bold">399/000 تومان</p>
+            </div>
+          </div>
+          <!-- item 10 -->
+          <div>
+            <!-- image box -->
+            <div class="mb-2 relative">
+              <!-- image -->
+              <div class="pb-64 w-full bg-gray-200 rounded-lg"></div>
+              <!-- bottom text -->
+              <div
+                class="absolute bottom-2 left-2 right-2 rounded-lg py-1 text-sm bg-gray-300"
+              >
+                20% تخفیف بیشتر
+              </div>
+              <!-- discount percentage -->
+              <div
+                class="absolute flex items-center justify-center top-5 right-0 bg-gray-300 px-2 text-sm py-1"
+              >
+                35%
+              </div>
+              <div
+                class="absolute flex items-center justify-center top-4 left-2 rounded-full w-8 h-8 bg-white px-2 text-sm py-1"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="w-6 h-6"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z"
+                  />
+                </svg>
+              </div>
+            </div>
+            <!-- name -->
+            <p class="text-right mb-2">پیراهن آستین کوتاه</p>
+            <!-- prices -->
+            <div class="flex items-center justify-around text-sm">
+              <!-- main price -->
+              <p class="text-gray-500 line-through">450/000</p>
+              <!-- atm price -->
+              <p class="font-bold">399/000 تومان</p>
+            </div>
+          </div>
+          <!-- item 11 -->
+          <div>
+            <!-- image box -->
+            <div class="mb-2 relative">
+              <!-- image -->
+              <div class="pb-64 w-full bg-gray-200 rounded-lg"></div>
+              <!-- bottom text -->
+              <div
+                class="absolute bottom-2 left-2 right-2 rounded-lg py-1 text-sm bg-gray-300"
+              >
+                20% تخفیف بیشتر
+              </div>
+              <!-- discount percentage -->
+              <div
+                class="absolute flex items-center justify-center top-5 right-0 bg-gray-300 px-2 text-sm py-1"
+              >
+                35%
+              </div>
+              <div
+                class="absolute flex items-center justify-center top-4 left-2 rounded-full w-8 h-8 bg-white px-2 text-sm py-1"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="w-6 h-6"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z"
+                  />
+                </svg>
+              </div>
+            </div>
+            <!-- name -->
+            <p class="text-right mb-2">پیراهن آستین کوتاه</p>
+            <!-- prices -->
+            <div class="flex items-center justify-around text-sm">
+              <!-- main price -->
+              <p class="text-gray-500 line-through">450/000</p>
+              <!-- atm price -->
+              <p class="font-bold">399/000 تومان</p>
+            </div>
+          </div>
+          <!-- item 12 -->
+          <div>
+            <!-- image box -->
+            <div class="mb-2 relative">
+              <!-- image -->
+              <div class="pb-64 w-full bg-gray-200 rounded-lg"></div>
+              <!-- bottom text -->
+              <div
+                class="absolute bottom-2 left-2 right-2 rounded-lg py-1 text-sm bg-gray-300"
+              >
+                20% تخفیف بیشتر
+              </div>
+              <!-- discount percentage -->
+              <div
+                class="absolute flex items-center justify-center top-5 right-0 bg-gray-300 px-2 text-sm py-1"
+              >
+                35%
+              </div>
+              <div
+                class="absolute flex items-center justify-center top-4 left-2 rounded-full w-8 h-8 bg-white px-2 text-sm py-1"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="w-6 h-6"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z"
+                  />
+                </svg>
+              </div>
+            </div>
+            <!-- name -->
+            <p class="text-right mb-2">پیراهن آستین کوتاه</p>
+            <!-- prices -->
+            <div class="flex items-center justify-around text-sm">
+              <!-- main price -->
+              <p class="text-gray-500 line-through">450/000</p>
+              <!-- atm price -->
+              <p class="font-bold">399/000 تومان</p>
+            </div>
+          </div>
+          <!-- item 13 -->
+          <div>
+            <!-- image box -->
+            <div class="mb-2 relative">
+              <!-- image -->
+              <div class="pb-64 w-full bg-gray-200 rounded-lg"></div>
+              <!-- bottom text -->
+              <div
+                class="absolute bottom-2 left-2 right-2 rounded-lg py-1 text-sm bg-gray-300"
+              >
+                20% تخفیف بیشتر
+              </div>
+              <!-- discount percentage -->
+              <div
+                class="absolute flex items-center justify-center top-5 right-0 bg-gray-300 px-2 text-sm py-1"
+              >
+                35%
+              </div>
+              <div
+                class="absolute flex items-center justify-center top-4 left-2 rounded-full w-8 h-8 bg-white px-2 text-sm py-1"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="w-6 h-6"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z"
+                  />
+                </svg>
+              </div>
+            </div>
+            <!-- name -->
+            <p class="text-right mb-2">پیراهن آستین کوتاه</p>
+            <!-- prices -->
+            <div class="flex items-center justify-around text-sm">
+              <!-- main price -->
+              <p class="text-gray-500 line-through">450/000</p>
+              <!-- atm price -->
+              <p class="font-bold">399/000 تومان</p>
+            </div>
+          </div>
+          <!-- item 14 -->
+          <div>
+            <!-- image box -->
+            <div class="mb-2 relative">
+              <!-- image -->
+              <div class="pb-64 w-full bg-gray-200 rounded-lg"></div>
+              <!-- bottom text -->
+              <div
+                class="absolute bottom-2 left-2 right-2 rounded-lg py-1 text-sm bg-gray-300"
+              >
+                20% تخفیف بیشتر
+              </div>
+              <!-- discount percentage -->
+              <div
+                class="absolute flex items-center justify-center top-5 right-0 bg-gray-300 px-2 text-sm py-1"
+              >
+                35%
+              </div>
+              <div
+                class="absolute flex items-center justify-center top-4 left-2 rounded-full w-8 h-8 bg-white px-2 text-sm py-1"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="w-6 h-6"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z"
+                  />
+                </svg>
+              </div>
+            </div>
+            <!-- name -->
+            <p class="text-right mb-2">پیراهن آستین کوتاه</p>
+            <!-- prices -->
+            <div class="flex items-center justify-around text-sm">
+              <!-- main price -->
+              <p class="text-gray-500 line-through">450/000</p>
+              <!-- atm price -->
+              <p class="font-bold">399/000 تومان</p>
+            </div>
+          </div>
+          <!-- item 15 -->
+          <div>
+            <!-- image box -->
+            <div class="mb-2 relative">
+              <!-- image -->
+              <div class="pb-64 w-full bg-gray-200 rounded-lg"></div>
+              <!-- bottom text -->
+              <div
+                class="absolute bottom-2 left-2 right-2 rounded-lg py-1 text-sm bg-gray-300"
+              >
+                20% تخفیف بیشتر
+              </div>
+              <!-- discount percentage -->
+              <div
+                class="absolute flex items-center justify-center top-5 right-0 bg-gray-300 px-2 text-sm py-1"
+              >
+                35%
+              </div>
+              <div
+                class="absolute flex items-center justify-center top-4 left-2 rounded-full w-8 h-8 bg-white px-2 text-sm py-1"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="w-6 h-6"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z"
+                  />
+                </svg>
+              </div>
+            </div>
+            <!-- name -->
+            <p class="text-right mb-2">پیراهن آستین کوتاه</p>
+            <!-- prices -->
+            <div class="flex items-center justify-around text-sm">
+              <!-- main price -->
+              <p class="text-gray-500 line-through">450/000</p>
+              <!-- atm price -->
+              <p class="font-bold">399/000 تومان</p>
+            </div>
+          </div>
+          <!-- item 16 -->
+          <div>
+            <!-- image box -->
+            <div class="mb-2 relative">
+              <!-- image -->
+              <div class="pb-64 w-full bg-gray-200 rounded-lg"></div>
+              <!-- bottom text -->
+              <div
+                class="absolute bottom-2 left-2 right-2 rounded-lg py-1 text-sm bg-gray-300"
+              >
+                20% تخفیف بیشتر
+              </div>
+              <!-- discount percentage -->
+              <div
+                class="absolute flex items-center justify-center top-5 right-0 bg-gray-300 px-2 text-sm py-1"
+              >
+                35%
+              </div>
+              <div
+                class="absolute flex items-center justify-center top-4 left-2 rounded-full w-8 h-8 bg-white px-2 text-sm py-1"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="w-6 h-6"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z"
+                  />
+                </svg>
+              </div>
+            </div>
+            <!-- name -->
+            <p class="text-right mb-2">پیراهن آستین کوتاه</p>
+            <!-- prices -->
+            <div class="flex items-center justify-around text-sm">
+              <!-- main price -->
+              <p class="text-gray-500 line-through">450/000</p>
+              <!-- atm price -->
+              <p class="font-bold">399/000 تومان</p>
+            </div>
+          </div>
+          <!-- item 17 -->
+          <div>
+            <!-- image box -->
+            <div class="mb-2 relative">
+              <!-- image -->
+              <div class="pb-64 w-full bg-gray-200 rounded-lg"></div>
+              <!-- bottom text -->
+              <div
+                class="absolute bottom-2 left-2 right-2 rounded-lg py-1 text-sm bg-gray-300"
+              >
+                20% تخفیف بیشتر
+              </div>
+              <!-- discount percentage -->
+              <div
+                class="absolute flex items-center justify-center top-5 right-0 bg-gray-300 px-2 text-sm py-1"
+              >
+                35%
+              </div>
+              <div
+                class="absolute flex items-center justify-center top-4 left-2 rounded-full w-8 h-8 bg-white px-2 text-sm py-1"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="w-6 h-6"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z"
+                  />
+                </svg>
+              </div>
+            </div>
+            <!-- name -->
+            <p class="text-right mb-2">پیراهن آستین کوتاه</p>
+            <!-- prices -->
+            <div class="flex items-center justify-around text-sm">
+              <!-- main price -->
+              <p class="text-gray-500 line-through">450/000</p>
+              <!-- atm price -->
+              <p class="font-bold">399/000 تومان</p>
+            </div>
+          </div>
+          <!-- item 18 -->
+          <div>
+            <!-- image box -->
+            <div class="mb-2 relative">
+              <!-- image -->
+              <div class="pb-64 w-full bg-gray-200 rounded-lg"></div>
+              <!-- bottom text -->
+              <div
+                class="absolute bottom-2 left-2 right-2 rounded-lg py-1 text-sm bg-gray-300"
+              >
+                20% تخفیف بیشتر
+              </div>
+              <!-- discount percentage -->
+              <div
+                class="absolute flex items-center justify-center top-5 right-0 bg-gray-300 px-2 text-sm py-1"
+              >
+                35%
+              </div>
+              <div
+                class="absolute flex items-center justify-center top-4 left-2 rounded-full w-8 h-8 bg-white px-2 text-sm py-1"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="w-6 h-6"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z"
+                  />
+                </svg>
+              </div>
+            </div>
+            <!-- name -->
+            <p class="text-right mb-2">پیراهن آستین کوتاه</p>
+            <!-- prices -->
+            <div class="flex items-center justify-around text-sm">
+              <!-- main price -->
+              <p class="text-gray-500 line-through">450/000</p>
+              <!-- atm price -->
+              <p class="font-bold">399/000 تومان</p>
+            </div>
+          </div>
+          <!-- item 19 -->
+          <div>
+            <!-- image box -->
+            <div class="mb-2 relative">
+              <!-- image -->
+              <div class="pb-64 w-full bg-gray-200 rounded-lg"></div>
+              <!-- bottom text -->
+              <div
+                class="absolute bottom-2 left-2 right-2 rounded-lg py-1 text-sm bg-gray-300"
+              >
+                20% تخفیف بیشتر
+              </div>
+              <!-- discount percentage -->
+              <div
+                class="absolute flex items-center justify-center top-5 right-0 bg-gray-300 px-2 text-sm py-1"
+              >
+                35%
+              </div>
+              <div
+                class="absolute flex items-center justify-center top-4 left-2 rounded-full w-8 h-8 bg-white px-2 text-sm py-1"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="w-6 h-6"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z"
+                  />
+                </svg>
+              </div>
+            </div>
+            <!-- name -->
+            <p class="text-right mb-2">پیراهن آستین کوتاه</p>
+            <!-- prices -->
+            <div class="flex items-center justify-around text-sm">
+              <!-- main price -->
+              <p class="text-gray-500 line-through">450/000</p>
+              <!-- atm price -->
+              <p class="font-bold">399/000 تومان</p>
+            </div>
+          </div>
+          <!-- item 20 -->
+          <div>
+            <!-- image box -->
+            <div class="mb-2 relative">
+              <!-- image -->
+              <div class="pb-64 w-full bg-gray-200 rounded-lg"></div>
+              <!-- bottom text -->
+              <div
+                class="absolute bottom-2 left-2 right-2 rounded-lg py-1 text-sm bg-gray-300"
+              >
+                20% تخفیف بیشتر
+              </div>
+              <!-- discount percentage -->
+              <div
+                class="absolute flex items-center justify-center top-5 right-0 bg-gray-300 px-2 text-sm py-1"
+              >
+                35%
+              </div>
+              <div
+                class="absolute flex items-center justify-center top-4 left-2 rounded-full w-8 h-8 bg-white px-2 text-sm py-1"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="w-6 h-6"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z"
+                  />
+                </svg>
+              </div>
+            </div>
+            <!-- name -->
+            <p class="text-right mb-2">پیراهن آستین کوتاه</p>
+            <!-- prices -->
+            <div class="flex items-center justify-around text-sm">
+              <!-- main price -->
+              <p class="text-gray-500 line-through">450/000</p>
+              <!-- atm price -->
+              <p class="font-bold">399/000 تومان</p>
+            </div>
+          </div>
+          <!-- item 21 -->
+          <div>
+            <!-- image box -->
+            <div class="mb-2 relative">
+              <!-- image -->
+              <div class="pb-64 w-full bg-gray-200 rounded-lg"></div>
+              <!-- bottom text -->
+              <div
+                class="absolute bottom-2 left-2 right-2 rounded-lg py-1 text-sm bg-gray-300"
+              >
+                20% تخفیف بیشتر
+              </div>
+              <!-- discount percentage -->
+              <div
+                class="absolute flex items-center justify-center top-5 right-0 bg-gray-300 px-2 text-sm py-1"
+              >
+                35%
+              </div>
+              <div
+                class="absolute flex items-center justify-center top-4 left-2 rounded-full w-8 h-8 bg-white px-2 text-sm py-1"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="w-6 h-6"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z"
+                  />
+                </svg>
+              </div>
+            </div>
+            <!-- name -->
+            <p class="text-right mb-2">پیراهن آستین کوتاه</p>
+            <!-- prices -->
+            <div class="flex items-center justify-around text-sm">
+              <!-- main price -->
+              <p class="text-gray-500 line-through">450/000</p>
+              <!-- atm price -->
+              <p class="font-bold">399/000 تومان</p>
+            </div>
+          </div>
+          <!-- item 22 -->
+          <div>
+            <!-- image box -->
+            <div class="mb-2 relative">
+              <!-- image -->
+              <div class="pb-64 w-full bg-gray-200 rounded-lg"></div>
+              <!-- bottom text -->
+              <div
+                class="absolute bottom-2 left-2 right-2 rounded-lg py-1 text-sm bg-gray-300"
+              >
+                20% تخفیف بیشتر
+              </div>
+              <!-- discount percentage -->
+              <div
+                class="absolute flex items-center justify-center top-5 right-0 bg-gray-300 px-2 text-sm py-1"
+              >
+                35%
+              </div>
+              <div
+                class="absolute flex items-center justify-center top-4 left-2 rounded-full w-8 h-8 bg-white px-2 text-sm py-1"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="w-6 h-6"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z"
+                  />
+                </svg>
+              </div>
+            </div>
+            <!-- name -->
+            <p class="text-right mb-2">پیراهن آستین کوتاه</p>
+            <!-- prices -->
+            <div class="flex items-center justify-around text-sm">
+              <!-- main price -->
+              <p class="text-gray-500 line-through">450/000</p>
+              <!-- atm price -->
+              <p class="font-bold">399/000 تومان</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- pagination -->
+    <section id="pagination">
+      <div class="section-container my-20">
+        <!-- pages -->
+        <div class="flex items-center justify-center gap-2 mb-8">
+          <a
+            href="#"
+            class="w-[32px] h-[32px] bg-gray-300 rounded-md flex items-center justify-center"
+            >1</a
+          >
+          <a
+            href="#"
+            class="w-[32px] h-[32px] bg-gray-300 rounded-md flex items-center justify-center"
+            >2</a
+          >
+          <a
+            href="#"
+            class="w-[32px] h-[32px] bg-gray-300 rounded-md flex items-center justify-center"
+            >3</a
+          >
+          <span class="text-xl">...</span>
+          <a
+            href="#"
+            class="w-[32px] h-[32px] bg-gray-300 rounded-md flex items-center justify-center"
+            >53</a
+          >
+        </div>
+        <!-- next page -->
+        <div class="w-full">
+          <a
+            href="#"
+            class="flex items-center justify-center gap-2 rounded-md py-3 border bg-gray-300"
+            ><span>صفحه بعدی</span>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="w-4 h-4"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M15.75 19.5L8.25 12l7.5-7.5"
+              />
+            </svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- category description -->
+    <section id="description">
+      <div class="container max-w-6xl px-3 mx-auto my-20 text-right">
+        <p class="text-gray-500 mb-10">
+          لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با
+          استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در
+          ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و
+          کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی
+          در شصت و سه درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می
+          طلبد، تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی
+          الخصوص طراحان خلاقی، و فرهنگ پیشرو در زبان فارسی اقرار گیرد.
+        </p>
+        <h1 class="text-xl font-bold mb-4">لباس زنانه</h1>
+        <p class="text-gray-500 mb-10">
+          لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با
+          استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در
+          ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و
+          کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی
+          در شصت و سه درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می
+          طلبد، تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی
+          الخصوص طراحان خلاقی، و فرهنگ پیشرو در زبان فارسی ایجاد کرد، در این
+          صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها، قرار
+          گیرد.
+        </p>
+        <h2 class="text-xl font-bold mb-4">عنوان یه بخش</h2>
+        <p class="text-gray-500 mb-10">
+          لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با
+          استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در
+          ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و
+          کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی
+          در شصت و سه درصد گذشته حال و آینیشرو در زبان فارسی ایجاد کرد، در این
+          صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها، اصلی،
+          و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار
+          گیرد.
+        </p>
+        <h2 class="text-xl font-bold mb-4">عنوان یه بخش</h2>
+        <p class="text-gray-500 mb-10">
+          لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با
+          استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در
+          ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و
+          کاربردهای متنوع با هدف بهبو زبان فارسی ایجاد کرد، در این صورت می توان
+          امید داشت که تمام و دشواری موجود در ارائه راهکارها، و شرایط سخت تایپ
+          به پایان رسد و زمان مورد نیاز شامل حروفچینی دستاوردهای اصلی، و جوابگوی
+          سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.
+        </p>
+        <h2 class="text-xl font-bold mb-4">عنوان یه بخش</h2>
+        <p class="text-gray-500 mb-10">
+          لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با
+          استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در
+          ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و
+          کاربردهای متنوع با هدف بهبود ابزاررسی ایجاد کرد، در این صورت می توان
+          امید داشت که تمام و دشواری موجود در ارائه راهکارها، و شرایط سخت تایپ
+          به پایان رسد و زمان مورد نیاز شامل حروفچینی دستاوردهای اصلی، و جوابگوی
+          سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.
+        </p>
+      </div>
+    </section>
+
+    <footer class="bg-[#e7e7e7]">
+      <div class="section-container p-16">
+        <!-- container -->
+        <div
+          class="flex flex-col gap-8 md:flex-row items-center md:items-start justify-center md:justify-between text-center md:text-right"
+        >
+          <!-- description -->
+          <div>
+            <h3 class="font-bold mb-4">فروشگاه برند ما</h3>
+            <p class="text-sm mx-auto md:mx-0 w-2/3 mb-4">
+              فروشگاه برند یکی از بزرگترین تامین کنندگان پوشاک جوانان ایرانی.
+            </p>
+            <p class="text-sm mb-1">تماس : 88112232-021</p>
+            <p class="text-sm">تماس : 88114422-021</p>
+          </div>
+          <!-- menu 1 -->
+          <div>
+            <h3 class="font-bold mb-6 md:mb-4">در مورد برند</h3>
+            <ul class="flex flex-col text-sm gap-6 md:gap-2">
+              <li>فروشگاه</li>
+              <li>دسته بندی ها</li>
+              <li>وبلاگ</li>
+              <li>محصولات</li>
+            </ul>
+          </div>
+          <!-- menu 2 -->
+          <div>
+            <h3 class="font-bold mb-6 md:mb-4">راهنمای خرید</h3>
+            <ul class="flex flex-col text-sm gap-6 md:gap-2">
+              <li>قوانین و مقررات</li>
+              <li>شیوه ارسال محصولات</li>
+              <li>مرجوعی کالا</li>
+              <li>کلوب مشتریان</li>
+            </ul>
+          </div>
+          <!-- newsletter and socials -->
+          <div>
+            <!-- newsletter -->
+            <div class="mb-8 md:mb-4">
+              <h3 class="font-bold mb-4">خبرنامه برند</h3>
+              <p class="text-sm mb-4 md:mb-2">عضویت در خبرنامه فروشگاه پوشاک</p>
+              <input
+                type="text"
+                placeholder="email@gmail.com"
+                class="placeholder:text-xs px-2 py-1 text-left"
+              />
+            </div>
+            <!-- socials -->
+            <div class="flex justify-center gap-4">
+              <!-- item 1 -->
+              <div class="w-8 h-8">
+                <a href="#">
+                  <img src="./images/telegram.png" alt="" />
+                </a>
+              </div>
+              <!-- item 2 -->
+              <div class="w-8 h-8">
+                <a href="#">
+                  <img src="./images/instagram.png" alt="" />
+                </a>
+              </div>
+              <!-- item 3 -->
+              <div class="w-8 h-8">
+                <a href="#">
+                  <img src="./images/pinterest.png" alt="" />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- footer -->
+        <p class="text-center md:text-right mt-12 md:mt-6 text-xs">
+          تمامی حقوق برای شرکت
+          <span class="font-bold">توکان تجارت آرسس</span> محفوظ می باشد
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
